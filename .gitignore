@@ -1,0 +1,6 @@
+# Git
+.gitattributes
+
+# Inno setup
+*.~is
+output/
