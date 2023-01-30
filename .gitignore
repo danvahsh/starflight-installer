@@ -3,4 +3,4 @@
 
 # Inno setup
 *.~is
-output/
+.output/
