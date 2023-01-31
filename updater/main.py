@@ -2,7 +2,7 @@ import requests
 import json
 
 def read_index():
-    online_index = requests.get('GITHUB URL HERE')
+    online_index = requests.get('https://raw.githubusercontent.com/danvahsh/starflight-installer-meta/main/index.json')
 
     return_info = dict(status_code=online_index.status_code, text=online_index.text)
 
