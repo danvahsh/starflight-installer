@@ -4,3 +4,8 @@
 # Inno setup
 *.~is
 .output/
+
+# Misc Files
+*test*
+
+# Temporary Files
